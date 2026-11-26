@@ -33,4 +33,4 @@ print('\thello world')   # tab
 print('\nhello \nPython \nC')   # new line 
 print('---------------------------------------------')
 
-print("Languages:\n\tPython\n\tC\n\tJavaScript")
+print("Languages:\n\tPython\n\tC\n\tJavaScript.")
