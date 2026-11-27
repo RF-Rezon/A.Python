@@ -34,3 +34,18 @@ print('\nhello \nPython \nC')   # new line
 print('---------------------------------------------')
 
 print("Languages:\n\tPython\n\tC\n\tJavaScript.")
+
+
+favourite_language = 'python'
+print(favourite_language)
+favourite_language = '     python'    #removed temporarily
+print(favourite_language.lstrip())
+favourite_language = 'python     5    '
+print(favourite_language.rstrip()) #removed temporarily
+
+
+print('---------------------------------------------')
+
+favourite_language = 'python      '
+favourite_language = favourite_language.strip()  #permanently
+print(favourite_language)  
